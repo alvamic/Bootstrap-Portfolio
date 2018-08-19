@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Bootstrap Portfolio</title>
 
- <!-- Linking my bootstrap and own CSS files -->
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Linking my bootstrap and own CSS files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
 </head>
+
 <body>
-<!-- Heading Styling -->
+    <!-- Heading Styling -->
     <div class="container-fluid">
-            
-<!--Heading of Page-->
+
+        <!--Heading of Page-->
         <!-- Name Container -->
         <div class="row">
             <div class="col-md-6">
@@ -25,86 +28,142 @@
                     </h1>
                 </div>
             </div>
-        <!-- Nav Bar **Have not linked other pages yet-->
+
             <div class="col-md-6">
-                    <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                              <a class="nav-link" href="./index.html">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="./contact.html">Contact Me</a>
-                            </li>
-                            
-                          </ul>
+                <ul class="nav justify-content-end">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="./contact.html">Contact Me</a> -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-link"  data-toggle="modal" data-target="#exampleModalCenter">
+                            Contact Me
+                        </button>   
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Contact Me!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container1">
+                                            <form action="action_page.php">
+                                        
+                                            <label for="fname">First Name</label>
+                                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                        
+                                            <label for="lname">Last Name</label>
+                                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                        
+                                            <label for="subject">Subject</label>
+                                            <textarea id="subject" name="subject" placeholder="Tell me a joke...a funny one" style="height:200px"></textarea>
+                                        
+                                            
+                                        
+                                            </form>
+                                        </div>    
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
 
         </div>
     </div>
-<!-- Body of the Page -->
+    <!-- Body of the Page -->
     <!-- Background container -->
-    
 
+<div class="row">
+    <div class="col-9">
     <div class="container">
-    <!-- Content Container -->
+        <!-- Content Container -->
         <div class="aboutmecontainer">
-            <div class"row">
+            <div class "row">
                 <div class="col-md-12">
                     <h3>About Me</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                        <div class="media">
-                                <img class="align-self-center mr-3" src="./assets/Images/mike.png" alt="Generic placeholder image" width=30%
-                                height=30%>
-                                <div class="media-body">
-                                  <h5 class="mt-0"></h5>
-                                    <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at 
-                                    lobortis erat, ac accumsan mi. Vestibulum ante ipsum primis in faucibus
-                                    orci luctus et ultrices posuere cubilia Curae; Donec tincidunt felis non
-                                    malesuada cursus. In faucibus quam dapibus, tristique justo eu, pellentesque
-                                    </p>
-                                    <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at 
-                                    lobortis erat, ac accumsan mi. Vestibulum ante ipsum primis in faucibus
-                                    orci luctus et ultrices posuere cubilia Curae; Donec tincidunt felis non
-                                    malesuada cursus. In faucibus quam dapibus, tristique justo eu, pellentesque
-                                    </p>
-                                    <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at 
-                                    lobortis erat, ac accumsan mi. Vestibulum ante ipsum primis in faucibus
-                                    orci luctus et ultrices posuere cubilia Curae; Donec tincidunt felis non
-                                    malesuada cursus. In faucibus quam dapibus, tristique justo eu, pellentesque
-                                    </p>
-                                    
-                                </div>
+                    <div class="media">
+                        <img class="align-self-center mr-3" src="./assets/Images/mike.png" alt="Generic placeholder image" height=20%>
+                        <div class="media-body">
+                            <h5 class="mt-0"></h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at lobortis erat, ac accumsan mi. Vestibulum ante ipsum
+                                primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt felis non
+                                malesuada cursus. In faucibus quam dapibus, tristique justo eu, pellentesque
+                            </p>
+                           
+
                         </div>
-                        
-                   
+                    </div>
+
+
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
+    <div class="col-3">
+            <div class="list-group">
+                    <a  class="list-group-item list-group-item-action disabled">Project Links</a>
+          
+          
+                    <a href="https://alvamic.github.io/train/" class="list-group-item list-group-item-action list-group-item">Train</a>
+                    <a href="https://alvamic.github.io/TeamAwesome/" class="list-group-item list-group-item-action list-group-item">Call For Code IBM</a>
+                    <a href="https://alvamic.github.io/gifTastic/" class="list-group-item list-group-item-action list-group-item">GifTastic</a>
+                    <a href="https://alvamic.github.io/trivia/" class="list-group-item list-group-item-action list-group-item">Trivia</a>
+                    <a href="https://alvamic.github.io/hangman/" class="list-group-item list-group-item-action list-group-item">Hangman</a>
+                  </div>
+</div>
     <!-- Footer -->
     <div class="footer">
-        
-                Product of Mike Alvarez
-        
+    <div class="row">
+    <div class="col-4">
+    
 
+       Email: MichaelAlvarez1717@gmail.com
     </div>
+    
+    <div class="col-4">
+    
+       GitHub: https://github.com/alvamic
+    </div>
+    
+    <div class="col-4">
+            
+               LinkedIn: "Inserting Link at later time"
+            </div>
+            </div>
+            
+            
 
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
 
 
